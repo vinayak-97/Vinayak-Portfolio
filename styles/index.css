@@ -18,20 +18,20 @@ body {
 
 
 #profilepic {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     float: right;
-    margin-right: 30px;
+    margin-right: 70px;
     border-radius: 50%;
     /* border-color: black; */
     border: 3px solid rgb(0, 0, 0);;
 }
 
 #headings {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-left: 30px;
     color:rgb(0, 0, 0);
-    font-family: 'cursive','Times New Roman', Times, serif;
+    /* font-family: 'cursive'; */
     
 }
 
