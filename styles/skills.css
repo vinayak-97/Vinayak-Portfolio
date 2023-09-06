@@ -1,0 +1,38 @@
+#home, #contactBtn, #downloadBtn {
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 170px; */
+    font-size: small;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#threeBtns {
+    text-align: center; /* Center-align the buttons horizontally */
+  }
+  
+  /* Add some spacing between buttons (optional) */
+#threeBtns button {
+    margin: 0 3px; /* Adjust the margin as needed */
+  }
+  
+.navbar {
+    overflow: hidden;
+    background-color: #333; /* Background color of the navbar */
+    }
+    
+    /* Style for the links in the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white; /* Color of the link text */
+    text-align: center;
+    padding: 5px 5px; /* Padding around the links */
+    text-decoration: none;
+    }
+    
+    /* Change the color of the links when hovered over */
+.navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Color of the link text on hover */
+    }

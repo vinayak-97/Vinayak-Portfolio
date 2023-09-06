@@ -1,0 +1,64 @@
+#profilepic {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 50%;
+    /* border-color: black; */
+    border: 3px solid rgb(0, 0, 0);;
+}
+
+#headings {
+    padding-top: 60px;
+    padding-left: 30px;
+    color:rgb(0, 0, 0);
+    font-family: cursive;
+    
+}
+
+#lastname{
+    color:rgb(240, 119, 149);
+}
+
+#buttons{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 170px;
+    font-size: small;
+}
+
+
+
+
+#youtubeBtn, #linkedinBtn, #githubBtn, #contactBtn, #downloadBtn{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#footer{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 220px;
+    font-size: small;
+}
+
+
+.navbar {
+overflow: hidden;
+background-color: #333; /* Background color of the navbar */
+}
+
+/* Style for the links in the navbar */
+.navbar a {
+float: left;
+display: block;
+color: white; /* Color of the link text */
+text-align: center;
+padding: 5px 5px; /* Padding around the links */
+text-decoration: none;
+}
+
+/* Change the color of the links when hovered over */
+.navbar a:hover {
+background-color: #ddd; /* Background color on hover */
+color: black; /* Color of the link text on hover */
+}
