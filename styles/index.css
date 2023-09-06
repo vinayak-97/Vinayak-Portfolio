@@ -1,3 +1,22 @@
+body {
+    position: relative; /* Make the body a positioned container */
+    min-height: 100vh; /* Set a minimum height of the viewport (100% of the viewport height) */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#footer {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute; /* Position the footer absolutely within the body */
+    bottom: 0; /* Place it at the bottom */
+    left: 0; /* Align it to the left if needed */
+    right: 0; /* Align it to the right if needed */
+    text-align: center; /* Center-align the text within the footer */
+   /* background-color: #f0f0f0; Add a background color for visibility */
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+
 #profilepic {
     width: 200px;
     height: 200px;
@@ -12,7 +31,7 @@
     padding-top: 60px;
     padding-left: 30px;
     color:rgb(0, 0, 0);
-    font-family: cursive, sans-serif;
+    font-family: cursive;
     
 }
 
@@ -20,13 +39,20 @@
     color:rgb(240, 119, 149);
 }
 
-#buttons{
+/* #buttons{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 170px;
     font-size: small;
-}
+} */
 
-
+#threeBtns {
+    text-align: center; /* Center-align the buttons horizontally */
+  }
+  
+  /* Add some spacing between buttons (optional) */
+#threeBtns button {
+    margin: 0 0; /* Adjust the margin as needed */
+  }
 
 
 #youtubeBtn, #linkedinBtn, #githubBtn, #contactBtn, #downloadBtn{
@@ -35,11 +61,11 @@
     color: rgb(255, 255, 255);
 }
 
-#footer{
+/* #footer{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 220px;
     font-size: small;
-}
+} */
 
 
 .navbar {
@@ -53,7 +79,7 @@ float: left;
 display: block;
 color: white; /* Color of the link text */
 text-align: center;
-padding: 5px 5px; /* Padding around the links */
+padding: 1px 5px; 
 text-decoration: none;
 }
 
