@@ -82,7 +82,7 @@ color: black;
 /* Example media query for mobile devices */
 @media only screen and (max-width: 400px) {
 
-/*     #footer {
+    #footer {
     font-size: small;
     font-family: 'Times New Roman', Times, serif;
     position: absolute; 
@@ -92,21 +92,21 @@ color: black;
     text-align: center; 
     padding-bottom: 0;
     }
- */
+
 
     #profilepic {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     float: right;
-    margin-right: 30px;
+    margin-right: 25px;
     border-radius: 50%;
     border: 3px solid rgb(0, 0, 0);;
     }
 
 
     #headings {
-    padding-top: 80px;
-    padding-left: 30px;
+    padding-top: 50px;
+    padding-left: 25px;
     color:rgb(0, 0, 0);
 /*     font-family: cursive; */
     }
