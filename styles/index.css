@@ -79,3 +79,21 @@ background-color: #ddd;
 color: black; 
 } 
 
+@media only screen and (max-width: 800px){
+    
+    #profilepic {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);;
+}
+    
+    #headings {
+    padding-top: 60px;
+    padding-left: 40px;
+    color:rgb(0, 0, 0);
+}
+
+}
