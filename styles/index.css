@@ -80,9 +80,9 @@ color: black;
 } 
 
 /* Example media query for mobile devices */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
 
-    #footer {
+/*     #footer {
     font-size: small;
     font-family: 'Times New Roman', Times, serif;
     position: absolute; 
@@ -91,9 +91,8 @@ color: black;
     right: 0; 
     text-align: center; 
     padding-bottom: 0;
-    /* padding: 10px 0;  */
     }
-
+ */
 
     #profilepic {
     width: 200px;
